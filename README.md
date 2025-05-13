@@ -1,7 +1,7 @@
 <h1 align="center">👤 GitHub Profile Finder</h1>
 
 <p align="center">
-  <img src="screenshot.png" alt="GitHub Profile Finder Screenshot" width="600">
+  <img src="app.png" alt="GitHub Profile Finder Screenshot" width="600">
 </p>
 
 <p align="center">
@@ -71,11 +71,11 @@ This project is ideal for learning how to work with APIs, manage asynchronous re
 
 4. The app will:
 
-✔️ Fetch the user's public data from GitHub
+  ✔️ Fetch the user's public data from GitHub
 
-✔️ Display their avatar, bio, and key statistics
+  ✔️ Display their avatar, bio, and key statistics
 
-✔️ List the 5 most recently created public repositories
+  ✔️ List the 5 most recently created public repositories
 
 5.  If the user does not exist, an elegant error card will be shown.
 
@@ -89,7 +89,7 @@ GET https://api.github.com/users/{garimaakashyap}
 
 GET https://api.github.com/users/{garimaakashyap}/repos?sort=created
 
-📦 **Axios for Requests **
+📦 **Axios for Requests**
 
 Instead of fetch(), this project uses Axios for:
 
@@ -100,9 +100,11 @@ Better error handling
 Cleaner async/await patterns
 
 🧩 **Dynamic HTML Generation**
+
 DOM elements like the user card and repository links are dynamically created using template literals and JavaScript DOM methods.
 
 📵 **Error Handling**
+
 If the user is not found (404), an error card is displayed.
 
 If repository fetching fails, an error message is shown.

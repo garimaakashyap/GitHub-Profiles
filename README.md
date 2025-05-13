@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://z2z5gf.csb.app/">🌐 Live Demo</a> |
+  <a href="https://garimaakashyap.github.io/GitHub-Profiles/">🌐 Live Demo</a> |
   <a href="#features">✨ Features</a> |
   <a href="#tech-stack">🛠️ Tech Stack</a> |
   <a href="#getting-started">🚀 Getting Started</a> |
@@ -39,6 +39,16 @@ This project is ideal for learning how to work with APIs, manage asynchronous re
 
 ---
 
+## 🖼️ Demo Preview
+
+🔗 **Live Demo**: [Click here to try the app now!](https://garimaakashyap.github.io/GitHub-Profiles/)
+
+<p align="center">
+  <img src="app.png" alt="GitHub Profiles in Action" width="600">
+</p>
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology     | Description                              |
@@ -51,6 +61,77 @@ This project is ideal for learning how to work with APIs, manage asynchronous re
 
 ---
 
+## 🧪 How to Use
+1. **Open the app in your browser:**
+🔗 https://garimaakashyap.github.io/GitHub-Profiles/
+
+2. **Enter any GitHub username** in the search field (e.g., torvalds, gaearon, or your own username).
+
+3. **Hit Enter** or submit the form.
+
+4. The app will:
+
+✔️ Fetch the user's public data from GitHub
+
+✔️ Display their avatar, bio, and key statistics
+
+✔️ List the 5 most recently created public repositories
+
+5.  If the user does not exist, an elegant error card will be shown.
+
+---
+
+## 🧠 Behind the Scenes (Technical Details)
+🔗 **API Integration**
+The app uses the GitHub REST API to fetch user data:
+
+GET https://api.github.com/users/{garimaakashyap}
+
+GET https://api.github.com/users/{garimaakashyap}/repos?sort=created
+
+📦 **Axios for Requests **
+
+Instead of fetch(), this project uses Axios for:
+
+Simpler syntax
+
+Better error handling
+
+Cleaner async/await patterns
+
+🧩 **Dynamic HTML Generation**
+DOM elements like the user card and repository links are dynamically created using template literals and JavaScript DOM methods.
+
+📵 **Error Handling**
+If the user is not found (404), an error card is displayed.
+
+If repository fetching fails, an error message is shown.
+
+---
+
+## 📱 Responsive Design
+Uses media queries for devices below 500px
+
+Input and card components adapt for smaller screen sizes
+
+Layout becomes vertical for better mobile readability
+
+---
+
+## ✨ Visual Aesthetics
+
+Modern pink color palette (#f7bdd0, #ee9bb7)
+
+Soothing shadows and rounded cards
+
+Custom GitHub-inspired card layout
+
+Use of Poppins font for a clean look
+
+
+
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally:
@@ -59,3 +140,10 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/garimaakashyap/GitHub-Profiles.git
 cd github-profile-finder
+```
+---
+## Contact
+
+- **GeeksforGeeks Profile**: [Your gfg](https://www.geeksforgeeks.org/user/garimamillicent/)
+- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/garima-kashyap-75b1202b8/)
+- **GitHub**: [Your GitHub](https://github.com/garimaakashyap)
